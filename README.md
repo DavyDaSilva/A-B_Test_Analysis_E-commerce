@@ -36,27 +36,27 @@ Principais verificações realizadas para garantir a integridade dos dados:
 - ✅ Nenhum usuário atribuído a ambos os grupos simultaneamente
 - ✅ Verificação da consistência entre grupo e página exibida
 
-📷 *(aqui uma imagem do Step 3 — verificação de valores nulos)*
+📌 *(aqui a imagem do Step 3 — verificação de valores nulos)*
 <p align="center">
   <img src="img_AB_test/Step_3.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 4 — contagem de usuários duplicados)*
+📌 *(aqui a imagem do Step 4 — contagem de usuários duplicados)*
 <p align="center">
   <img src="img_AB_test/Step_4.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 5 — detalhe dos usuários duplicados)*
+📌 *(aqui a imagem do Step 5 — detalhe dos usuários duplicados)*
 <p align="center">
   <img src="img_AB_test/Step_5.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 6 — linhas antes e depois da limpeza)*
+📌 *(aqui a imagem do Step 6 — linhas antes e depois da limpeza)*
 <p align="center">
   <img src="img_AB_test/Step_6.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 7 — confirmação de usuários em grupo único)*
+📌 *(aqui a imagem do Step 7 — confirmação de usuários em grupo único)*
 <p align="center">
   <img src="img_AB_test/Step_7.png" width="60%" />
 </p>
@@ -71,12 +71,12 @@ Verificamos se o tráfego foi dividido corretamente para evitar viés:
 - Tratamento: **145.311 usuários**
 - Divisão: **~50/50**
 
-📷 *(aqui uma imagem do Step 8 — tamanhos dos grupos)*
+📌 *(aqui a imagem do Step 8 — tamanhos dos grupos)*
 <p align="center">
   <img src="img_AB_test/Step_8.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 9 — teste-z para balanceamento)*
+📌 *(aqui a imagem do Step 9 — teste-z para balanceamento)*
 <p align="center">
   <img src="img_AB_test/Step_9.png" width="60%" />
 </p>
@@ -89,12 +89,12 @@ Verificamos se o tráfego foi dividido corretamente para evitar viés:
 - Controle: **12,0386%**
 - Tratamento: **11,8807%**
 
-📷 *(aqui uma imagem do Step 10 — tabela de taxa de conversão)*
+📌 *(aqui a imagem do Step 10 — tabela de taxa de conversão)*
 <p align="center">
   <img src="img_AB_test/Step_10.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 28 — Gráfico 1: gráfico de barras de conversão geral)*
+📌 *(aqui a imagem do Step 28 — Gráfico 1: gráfico de barras de conversão geral)*
 <p align="center">
   <img src="img_AB_test/Step_28.png" width="60%" />
 </p>
@@ -103,7 +103,7 @@ Verificamos se o tráfego foi dividido corretamente para evitar viés:
 - Lift Absoluto: **-0,1579 pp** (pontos percentuais)
 - Lift Relativo: **-1,31%**
 
-📷 *(aqui uma imagem do Step 11 — cálculo de lift)*
+📌 *(aqui a imagem do Step 11 — cálculo de lift)*
 <p align="center">
   <img src="img_AB_test/Step_11.png" width="60%" />
 </p>
@@ -119,7 +119,7 @@ Realizamos o Teste-Z para duas proporções:
 
 📌 Como o **p-valor > 0,05**, o resultado **não tem significância estatística**. Falhamos em rejeitar a hipótese nula.
 
-📷 *(aqui uma imagem do Step 12 — resultado do teste-z)*
+📌 *(aqui a imagem do Step 12 — resultado do teste-z)*
 <p align="center">
   <img src="img_AB_test/Step_12.png" width="60%" />
 </p>
@@ -132,7 +132,7 @@ Realizamos o Teste-Z para duas proporções:
 
 📌 O intervalo cruza o zero, confirmando que não há evidências de que o tratamento seja melhor ou pior.
 
-📷 *(aqui uma imagem do Step 13 — intervalo de confiança)*
+📌 *(aqui a imagem do Step 13 — intervalo de confiança)*
 <p align="center">
   <img src="img_AB_test/Step_13.png" width="60%" />
 </p>
@@ -148,7 +148,7 @@ Cenário estimado com Ticket Médio (AOV) de $75:
 | 100.000 | -157,9 | -$11.843 |
 | 1.000.000 | -1.579,1 | -$118.429 |
 
-📷 *(aqui uma imagem do Step 14 — impacto de negócio)*
+📌 *(aqui a imagem do Step 14 — impacto de negócio)*
 <p align="center">
   <img src="img_AB_test/Step_14.png" width="60%" />
 </p>
@@ -163,17 +163,17 @@ Cenário estimado com Ticket Médio (AOV) de $75:
 | US (EUA) | 12,06% | 11,85% | ❌ -0,22 pp |
 | CA (Canadá) | 11,88% | 11,19% | ❌ -0,69 pp |
 
-📷 *(aqui uma imagem do Step 15 — tabela de conversão por país)*
+📌 *(aqui a imagem do Step 15 — tabela de conversão por país)*
 <p align="center">
   <img src="img_AB_test/Step_15.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 16 — teste-z por país)*
+📌 *(aqui a imagem do Step 16 — teste-z por país)*
 <p align="center">
   <img src="img_AB_test/Step_16.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 30 — Gráfico 3: conversão por país e grupo)*
+📌 *(aqui a imagem do Step 30 — Gráfico 3: conversão por país e grupo)*
 <p align="center">
   <img src="img_AB_test/Step_30.png" width="60%" />
 </p>
@@ -183,12 +183,12 @@ Cenário estimado com Ticket Médio (AOV) de $75:
 ## Análise Temporal
 
 ### Conversão ao Longo do Tempo
-📷 *(aqui uma imagem do Step 18 — tabela de buckets de minutos)*
+📌 *(aqui a imagem do Step 18 — tabela de buckets de minutos)*
 <p align="center">
   <img src="img_AB_test/Step_18.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 29 — Gráfico 2: taxa de conversão temporal)*
+📌 *(aqui a imagem do Step 29 — Gráfico 2: taxa de conversão temporal)*
 <p align="center">
   <img src="img_AB_test/Step_29.png" width="90%" />
 </p>
@@ -196,12 +196,12 @@ Cenário estimado com Ticket Médio (AOV) de $75:
 ### Persistência de Efeito (Início vs Fim do Teste)
 Verificamos se houve efeito de novidade comparando o início e o fim da amostragem.
 
-📷 *(aqui uma imagem do Step 19 — tabela de early vs late)*
+📌 *(aqui a imagem do Step 19 — tabela de early vs late)*
 <p align="center">
   <img src="img_AB_test/Step_19.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 21 — early vs late por tempo)*
+📌 *(aqui a imagem do Step 21 — early vs late por tempo)*
 <p align="center">
   <img src="img_AB_test/Step_21.png" width="60%" />
 </p>
@@ -212,12 +212,12 @@ Verificamos se houve efeito de novidade comparando o início e o fim da amostrag
 
 Modelo avançado para detectar se o tratamento funciona melhor em algum país específico.
 
-📷 *(aqui uma imagem do Step 24 — ranking de lift por país)*
+📌 *(aqui a imagem do Step 24 — ranking de lift por país)*
 <p align="center">
   <img src="img_AB_test/Step_24.png" width="60%" />
 </p>
 
-📷 *(aqui uma imagem do Step 26 — output da regressão logística)*
+📌 *(aqui a imagem do Step 26 — output da regressão logística)*
 <p align="center">
   <img src="img_AB_test/Step_26.png" width="60%" />
 </p>
@@ -226,7 +226,7 @@ Modelo avançado para detectar se o tratamento funciona melhor em algum país es
 
 ## Recomendação Final
 
-📷 *(aqui uma imagem do Step 27 — bloco de decisão final)*
+📌 *(aqui a imagem do Step 27 — bloco de decisão final)*
 <p align="center">
   <img src="img_AB_test/Step_27.png" width="60%" />
 </p>
