@@ -25,10 +25,10 @@ O objetivo é tomar uma **decisão orientada por dados** sobre substituir ou nã
 
 ## Métricas Principais
 
-Taxa de Conversão (Controle): X%
-Taxa de Conversão (Tratamento): X%
-Lift (Diferença): X%
-P-valor: X
+* Taxa de Conversão (Controle): X%
+* Taxa de Conversão (Tratamento): X%
+* Lift (Diferença): X%
+* P-valor: X
 
 📍(here a image of comparação de conversão → do Step 4: Análise Exploratória (EDA) onde você calcula a taxa de conversão)
 
@@ -36,17 +36,17 @@ P-valor: X
 
 ## Abordagem Estatística
 
-Teste de hipótese (Z-test para proporções)
-Nível de significância: 5%
-Intervalo de confiança
+* Teste de hipótese (Z-test para proporções)
+* Nível de significância: 5%
+* Intervalo de confiança
 
 📍(here a image of resultado do teste estatístico → do Step 5: Teste Estatístico onde aparece o p-value)
 
 ---
 
 ## Resultados
-Diferença observada entre os grupos: X%
-Significância estatística: (Sim/Não)
+* Diferença observada entre os grupos: X%
+* Significância estatística: (Sim/Não)
 
 📍(here a image of resumo das métricas → do Step 6: Resultados onde você mostra controle vs tratamento)
 
