@@ -37,6 +37,9 @@ Principais verificações realizadas para garantir a integridade dos dados:
 - ✅ Verificação da consistência entre grupo e página exibida
 
 📷 *(aqui uma imagem do Step 3 — verificação de valores nulos)*
+<p align="center">
+  <img src="img_AB_test/Step_3.png" width="70%" />
+</p>
 
 📷 *(aqui uma imagem do Step 4 — contagem de usuários duplicados)*
 
