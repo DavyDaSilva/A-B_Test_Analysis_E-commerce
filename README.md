@@ -23,47 +23,32 @@ O objetivo é tomar uma **decisão orientada por dados** sobre substituir ou nã
 
 ---
 
-## Preparação dos Dados
+## Métricas Principais
 
-* Limpeza de valores inconsistentes (ex: string "NaN")
-* Padronização dos formatos das colunas
-* Remoção de registros inválidos ou ausentes
-* Garantia da separação correta entre grupos (controle vs tratamento)
+Taxa de Conversão (Controle): X%
+Taxa de Conversão (Tratamento): X%
+Lift (Diferença): X%
+P-valor: X
 
-📍 (here a image of data cleaning process or dataframe preview from Step 1)
-
----
-
-## Análise Exploratória (EDA)
-
-* Comparação das taxas de conversão entre os grupos
-* Análise da distribuição de tráfego
-* Verificação de balanceamento e possíveis anomalias
-
-📍 (here a image of conversion rate comparison graph from Step 2)
-
-📍 (here a image of distribution or traffic analysis)
+📍(here a image of comparação de conversão → do Step 4: Análise Exploratória (EDA) onde você calcula a taxa de conversão)
 
 ---
 
-## Teste Estatístico
+## Abordagem Estatística
 
-* Aplicação do **teste Z para proporções**
-* Cálculo de **intervalos de confiança**
-* Avaliação da significância estatística
+Teste de hipótese (Z-test para proporções)
+Nível de significância: 5%
+Intervalo de confiança
 
-📍(here a image of statistical results or p-value output)
+📍(here a image of resultado do teste estatístico → do Step 5: Teste Estatístico onde aparece o p-value)
 
 ---
 
-## Principais Resultados
+## Resultados
+Diferença observada entre os grupos: X%
+Significância estatística: (Sim/Não)
 
-* Taxa de Conversão (Controle): X%
-* Taxa de Conversão (Tratamento): X%
-* Diferença: X%
-* P-valor: X
-
-📍(here a image of metrics comparison or summary table)
+📍(here a image of resumo das métricas → do Step 6: Resultados onde você mostra controle vs tratamento)
 
 ---
 
@@ -74,7 +59,7 @@ O objetivo é tomar uma **decisão orientada por dados** sobre substituir ou nã
 
 **Decisão Final:**
 
-> (Escreva aqui sua conclusão real — ex: “A nova página apresenta melhora estatisticamente significativa e deve ser implementada.”)
+> A nova página não apresenta melhora estatisticamente significativa, portanto não deve ser implementada.
 
 ---
 
